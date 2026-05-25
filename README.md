@@ -6,3 +6,4 @@ Siga as instruções do [slide](https://dvcirilo-ifrn.github.io/pweb/slides/aula
 
 ## Equipe
 - Sônia Isis
+- Sabrina Silva
