@@ -1,0 +1,16 @@
+body {
+    margin: auto;
+}
+
+.header-conteudo {
+    background-color: rgb(179, 3, 3);
+}
+
+.footer-conteudo {
+    background-color: navy;
+}
+
+ul {
+    list-style: none;
+
+}

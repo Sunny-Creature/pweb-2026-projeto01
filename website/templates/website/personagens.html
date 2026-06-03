@@ -1,0 +1,12 @@
+{% extends 'website/base.html' %}
+
+{% block title %}{% endblock %}- Personagens
+
+{% block content %}
+<ul>
+    {% for personagens in personagens %}
+    <li><strong>Nome:</strong>{{personagens.nome}}</li>
+    <li><strong>Biografia:</strong>{{personagens.biografia}}</li>
+    {% endfor %}
+</ul>
+{% endblock %}

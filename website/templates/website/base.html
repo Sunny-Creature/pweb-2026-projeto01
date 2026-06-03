@@ -1,20 +1,35 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% block title %}Website{% endblock %}</title>
+    <link href="{% static 'website/style.css' %}" rel="stylesheet">
 </head>
 <body>
-    <header>
-        
+    <header class="header-conteudo">
+        <ul>
+            <li>
+                <a href="{% url 'index' %}">Obra</a>
+            </li>
+            <li>
+                <a href="{% url 'personagens' %}">Personagens</a>
+            </li>
+            <li>
+                <a href="{% url 'sobre' %}">Sobre</a>
+            </li>
+        </ul>
     </header>
 
     {% block content %}
     {% endblock %}
     
-    <footer>
-
+    <footer class="footer-conteudo">
+        <ul>
+            <li></li>
+        </ul>
     </footer>
 </body>
 </html>
