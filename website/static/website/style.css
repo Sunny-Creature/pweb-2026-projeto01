@@ -1,16 +1,31 @@
 body {
-    margin: auto;
+    background-color: #0d1b2a;
+    color: #fdf6e3;
+    font-family: Georgia, serif;
 }
 
+  
 .header-conteudo {
-    background-color: rgb(179, 3, 3);
+    background-color: rgb(221, 194, 72);
 }
 
 .footer-conteudo {
-    background-color: navy;
+    background-color: rgb(249, 249, 255);
 }
 
 ul {
     list-style: none;
 
+}
+
+p {
+    font-size: 1.3rem;
+    color: #f1db9c;
+    margin-bottom: 1.2rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: #f0c040;
+  margin-bottom: 1.5rem;
 }
